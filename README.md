@@ -59,6 +59,7 @@ root
 │   ├── bubbles.module.scss
 │   ├── global.css
 │   ├── theme.js
-└── index.html
+├── package.json
+└── sm.json
 ```
  
