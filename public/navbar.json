@@ -1,0 +1,58 @@
+[
+    {
+      "id":1,
+      "name":"MENU",
+      "contents": [{
+        "itemid":1,
+        "name":"Dashboard",
+        "active":"1",
+        "svg":"one.svg"
+      },
+      {
+        "itemid":2,
+        "name":"Food Order",
+        "active":"0",
+        "svg":"two.svg"
+      },
+      {
+        "itemid":3,
+        "name":"Manage Menu",
+        "active":"0",
+        "svg":"three.svg"
+      },
+      {
+        "itemid":4,
+        "name":"Customer Review",
+        "active":"0",
+        "svg":"four.svg"
+      }]
+    },
+    {
+      "id":2,
+      "name":"OTHERS",
+      "contents": [{
+        "itemid":1,
+        "name":"Settings",
+        "active":"0",
+        "svg":"five.svg"
+      },
+      {
+        "itemid":2,
+        "name":"Payment",
+        "active":"0",
+        "svg":"six.svg"
+      },
+      {
+        "itemid":3,
+        "name":"Accounts",
+        "active":"0",
+        "svg":"seven.svg"
+      },
+      {
+        "itemid":4,
+        "name":"Help",
+        "active":"0",
+        "svg":"eight.svg"
+      }]
+    }
+  ]

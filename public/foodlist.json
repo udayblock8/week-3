@@ -1,0 +1,26 @@
+[
+  {
+      "itemid":1,
+      "name":"Fresh Salad Bowl",
+      "price":"45.000",
+      "img":"img1.png"
+  },
+  {
+      "itemid":2,
+      "name":"Chicken Noodles",
+      "price":"75.000",
+      "img":"img2.png"
+  },
+  {
+      "itemid":3,
+      "name":"Smoothie Fruits",
+      "price":"45.000",
+      "img":"img3.png"
+  },
+  {
+      "itemid":4,
+      "name":"Hot Chicken Wings",
+      "price":"45.000",
+      "img":"img4.png"
+  }
+]
