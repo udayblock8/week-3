@@ -1,6 +1,9 @@
 import { createTheme } from '@mui/material/styles';
-const drawerWidth = 200
+// drawerWidth is being used at many places, try to make it consistent i.e if it's being used as different value everywhere avoid
+// using it as base theme
 
+const drawerWidth = 200
+// TIP: Make separte color.js file for all the colors
 const blue = 'rgba(90, 106, 207, 1)'
 const gray = 'rgba(39, 50, 64, 0.7)'
 const graphGray = 'rgba(230, 232, 236, 1)'

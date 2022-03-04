@@ -13,14 +13,17 @@ import theme from '../styles/theme';
 import Header from '../components/header'
 import Grid from '../components/grid'
 
+// declare it inside the component
 const drawerWidth = 240;
 
 export default function PermanentDrawerLeft() {
+  
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
         <Header/>
+        {/* TIP: extract css outside using makeStyles for multiple usage */}
         <Drawer
           sx={{
             width: drawerWidth,

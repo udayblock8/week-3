@@ -6,18 +6,6 @@ import Badge from '@mui/material/Badge';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 
-const MyComponent = styled('div')({
-    width: '32px',
-    height: '32px',
-    backgroundColor: 'rgba(255, 230, 204, 1)',
-    borderRadius: '55px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
-  });
-
-
-
 export default function avatar(){
     return(
         <>
@@ -41,5 +29,13 @@ export default function avatar(){
     )
 }
 
-
-
+// better practice to write them below main component
+const MyComponent = styled('div')({
+    width: '32px',
+    height: '32px',
+    backgroundColor: 'rgba(255, 230, 204, 1)',
+    borderRadius: '55px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  });

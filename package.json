@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8888",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -15,6 +15,7 @@
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.8.1",
     "@fontsource/poppins": "^4.5.2",
+    "@material-ui/core": "^4.12.3",
     "@mui/icons-material": "^5.0.0-rc.1",
     "@mui/material": "^5.0.0-rc.1",
     "@mui/styles": "^5.4.2",
