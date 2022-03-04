@@ -9,7 +9,7 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Avatar from './login'
 
-
+// remove unused variable
 const drawerWidth = 240;
 export default function header(props)
 {   

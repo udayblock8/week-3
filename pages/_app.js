@@ -21,7 +21,8 @@ class MyApp extends NextApp {
 
   render() {
     const { Component, pageProps, props } = this.props
-    console.log(props.menu)
+    
+    console.log(props.menu) // remove all console statements while submitting. 
     return (
       <Component {...pageProps} menu={props.menu} />
     )

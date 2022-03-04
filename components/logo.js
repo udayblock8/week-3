@@ -8,6 +8,7 @@ export default function logo()
 {
     return (
         <Toolbar>
+            {/* write css properties separately to make code look clean */}
             <Box sx={{  width: 24,
                         height:24,
                         lineHeight: '24px',
